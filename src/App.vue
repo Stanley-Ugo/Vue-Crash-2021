@@ -23,7 +23,9 @@ export default {
       }
     },
     toggleReminder(id) {
-      console.log(id)
+      this.tasks = this.tasks.map((task) => task.id === id ? {
+        ...task, reminder: !task.reminder
+      } : task)
     }
   },
   data() {
