@@ -12,6 +12,11 @@ export default {
     name: 'Task',
     props: {
         task: Object
+    },
+    methods: {
+      onDelete(id) {
+        console.log(id)
+      }
     }
 }
 </script>
