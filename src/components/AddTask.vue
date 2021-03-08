@@ -25,6 +25,11 @@
 <script>
   export default {
       name: 'AddTask',
+      data() {
+          return {
+              
+          }
+      }
   }
 </script>
 
