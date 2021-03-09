@@ -52,7 +52,7 @@
 
               this.text = '',
               this.day = '',
-              this.reminder = false
+              this.reminder = false,
           }
       }
   }
