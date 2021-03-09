@@ -21,7 +21,7 @@ export default {
   },
   methods: {
     addTask(task){
-      this.tasks = [...this.tasks, task]
+      this.tasks = [...this.tasks, task],
     },
     deleteTask(id){
       if (confirm('Are You Sure?')) {
