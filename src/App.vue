@@ -1,4 +1,4 @@
-<template
+<template></template>
   <div class="container">
     <Header title="Task Tracker" />
     <AddTask @add-task="addTask" />
