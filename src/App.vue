@@ -57,7 +57,7 @@ export default {
         id: 3,
         text: 'Food Shopping',
         day: 'March 1st at 11:30pm',
-        reminder: false
+        reminder: false,
       }
     ]
   }
