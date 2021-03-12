@@ -30,6 +30,10 @@ export default {
   },
 
   methods: {
+    toggleAddTask() {
+      this.showAddTask = !this.showAddTask
+    },
+
     addTask(task) {
       this.tasks = [...this.tasks, task]
     },
