@@ -19,6 +19,13 @@ export default {
     Tasks,
     AddTask
   },
+  
+  data() {
+    return {
+      tasks: [],
+    }
+  },
+
   methods: {
     addTask(task) {
       this.tasks = [...this.tasks, task]
@@ -35,11 +42,7 @@ export default {
       } : task)
     }
   },
-  data() {
-    return {
-      tasks: [],
-    }
-  },
+
   created() {
     this.tasks = [
       {
