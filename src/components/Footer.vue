@@ -4,3 +4,10 @@
       <a href="/about">About</a>
   </footer>
 </template>
+
+<style scoped>
+  a {
+      color: #333;
+  }
+  
+</style>
