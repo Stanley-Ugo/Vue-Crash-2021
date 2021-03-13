@@ -5,6 +5,7 @@
        <AddTask @add-task="addTask" />
     </div>
     <Tasks @toggle-reminder="toggleReminder" @delete-task="deleteTask" :tasks="tasks"/>
+    <Footer />
   </div>
   
 </template>
@@ -20,7 +21,8 @@ export default {
   components: {
     Header,
     Tasks,
-    AddTask
+    AddTask,
+    Footer
   },
   
   data() {
