@@ -17,12 +17,6 @@
       "text": "Food Shopping",
       "day": "March 1st at 11:30pm",
       "reminder": false
-    },
-    {
-      "id": 92251,
-      "text": "Dentist Appointment",
-      "day": "March 10th at 03:00pm",
-      "reminder": true
     }
   ]
 }
