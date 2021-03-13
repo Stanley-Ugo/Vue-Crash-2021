@@ -12,6 +12,7 @@ import Button from './Button'
       name: 'Header',
       props: {
           title: String,
+          showAddTask: Boolean,
       },
       components: {
           Button
